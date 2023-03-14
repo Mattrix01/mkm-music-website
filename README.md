@@ -4,4 +4,4 @@ My website with mobile responsiveness for my music portfolio
 
 # deployment link
 
-https://mattrix01.github.io/
+https://mattrix01.github.io/mkm-music-website/
