@@ -22,17 +22,17 @@ menu.addEventListener("click", function () {
 // };
 
 const icon = document.getElementById("icon");
-const audio = new Audio("/media/MattKnight-Drum&Bass-Showreel2023.mp3");
+const audio = new Audio("./media/MattKnight-Drum&Bass-Showreel2023.mp3");
 let isPlaying = false;
 
 icon.addEventListener("click", () => {
   if (isPlaying) {
     audio.pause();
-    icon.src = "/images/play.png";
+    icon.src = "./images/play.png";
     isPlaying = false;
   } else {
     audio.play();
-    icon.src = "/images/pause.png";
+    icon.src = "./images/pause.png";
     isPlaying = true;
   }
 });
